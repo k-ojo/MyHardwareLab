@@ -1,9 +1,9 @@
 # === Configuration ===
-TOP     := and_gate_tb
-SRC     := and_gate.v and_gate_tb.v
-OUT     := build
-BIN     := $(OUT)/and_gate_sim
-VCD     := wave.vcd
+TOP  := tb                    # Top-level testbench module name
+SRC  := $(wildcard *.v)       # All Verilog files in the directory
+OUT  := build
+BIN  := $(OUT)/sim_out
+VCD  := wave.vcd
 
 # === Tools ===
 IVERILOG := iverilog
