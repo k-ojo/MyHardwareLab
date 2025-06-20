@@ -1,0 +1,57 @@
+# Common simulation outputs
+*.vcd
+*.lxt
+*.vvp
+*.vpi
+*.fst
+*.gtkw  # GTKWave savefiles
+*.wlf   # ModelSim waveform
+*.asdb  # Aldec
+
+# Compilation results
+*.o
+*.out
+*.bin
+*.hex
+*.elf
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# VS Code and IDE configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Vivado (if used)
+*.jou
+*.str
+*.log
+*.cache
+*.webtalk
+*.runs/
+*.xpr
+*.xpr~
+*.data/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.xdc
+
+# Models and dependencies
+simv*
+csrc/
+obj_dir/
+
+# Backup files
+*.orig
+*.save
+
+# Mac/Windows trash
+.DS_Store
+Thumbs.db
